@@ -1,0 +1,42 @@
+/* hamber menu desktop */
+function myFunction() {
+  document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn1')) {
+    var dropdowns1 = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns1.length; i++) {
+      var openDropdown = dropdowns1[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+/* hamber menu desktop */
+
+jQuery(document).ready(function(){
+   $('#doctor-carousel').owlCarousel({
+    autoplay:false,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,   
+    loop:false,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+});
