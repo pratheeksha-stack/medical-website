@@ -62,6 +62,18 @@ export default {
     toggleMenu() {
       this.menuOpen = !this.menuOpen;
     },
+    closeMenu() {
+      this.menuOpen = false;
+    },
+  },
+  watch: {
+    // Watch route changes and close menu
+    $route() {
+      // Optional: Only collapse on smaller screens
+      if (window.innerWidth < 992) {
+        this.closeMenu();
+      }
+    },
   },
 };
 </script>
