@@ -77,6 +77,7 @@
   </div>
 </template>
 
+
 <style scoped>
 .page-container {
   display: flex;
@@ -127,4 +128,21 @@
     text-align: center;
   }
 }
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  margin-top: auto; /* Pushes footer to bottom only when content is less */
+}
+
+
 </style>
