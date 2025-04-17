@@ -1,18 +1,20 @@
 <template>
   <div class="hospital-header container-fluid px-0 sticky-header">
     <!-- Top Row (Logo + Hotline) -->
-    <div class="top-row container-fluid py-2 border-bottom">
-      <div class="row align-items-center">
-        <!-- Logo Column -->
-        <div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
-          <img src="@/assets/Sanjeevini-logo.png" alt="Sanjeevini Hospital" class="logo-image" />
-        </div>
+    <div class="top-row border-bottom py-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Logo Column -->
+          <div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center mb-2 mb-md-0">
+            <img src="@/assets/Sanjeevini-logo.png" alt="Sanjeevini Hospital" class="logo-image" />
+          </div>
 
-        <!-- Hotline Column -->
-        <div class="col-md-6 text-md-end text-center mt-2 mt-md-0">
-          <div class="call-button d-inline-block">
-            <span class="call-text d-block">CALL</span>
-            <span class="helpline-text d-block">24/7 Helpline</span>
+          <!-- Hotline Column -->
+          <div class="col-md-6 text-md-end text-center">
+            <div class="call-button d-inline-block px-3 py-2">
+              <span class="call-text d-block">CALL</span>
+              <span class="helpline-text d-block">24/7 Helpline</span>
+            </div>
           </div>
         </div>
       </div>
@@ -20,7 +22,7 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-1">
-      <div class="container-fluid">
+      <div class="container">
         <button class="navbar-toggler ms-auto" type="button" @click="toggleMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,6 +52,7 @@
     </nav>
   </div>
 </template>
+
 
 <script>
 export default {
