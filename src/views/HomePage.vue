@@ -75,41 +75,43 @@
 
 
   <!-- Sanjeevini Hospitals Intro Section -->
-<section class="hospital-intro container py-5">
-  <div class="row align-items-center">
-    <!-- Image Column -->
-    <div class="col-lg-6 mb-4 mb-lg-0">
-      <img
-        src="@/assets/hospital.jpg"
-        alt="Sanjeevini Hospital"
-        class="img-fluid rounded w-100"
-        style="object-fit: cover; max-height: 400px;"
-      />
-    </div>
+<section class="hospital-intro py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Image Column -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img
+          src="@/assets/hospital.jpg"
+          alt="Sanjeevini Hospital"
+          class="img-fluid rounded w-100"
+          style="object-fit: cover; max-height: 400px;"
+        />
+      </div>
 
-    <!-- Text Column -->
-    <div class="col-lg-6">
-      <h5 class="text-muted">Welcome to</h5>
-      <h2 class="text-primary fw-bold mb-3">Sanjeevini Hospitals</h2>
-      <p class="mb-3">
-        Sanjeevini Hospital, rated as the best hospital in Bangalore, is a Multispeciality
-        and super speciality hospital conceived with an aim to deliver advanced and
-        affordable healthcare to the community at large. Its deep-rooted commitment to
-        imparting quality service at every stage continues to be its strong point in
-        achieving success.
-      </p>
-      <p class="mb-4">
-        The hospital adds a new dimension to healthcare with a state-of-the-art facility,
-        specially designed to ensure the comfort of our patients and their families.
-        Because your life is most important to us, we at Sanjeevini have taken all the
-        requisite steps to ensure that our medical and administrative staffs serve you
-        with attention to every minute detail.
-      </p>
+      <!-- Text Column -->
+      <div class="col-lg-6">
+        <h5 class="text-muted">Welcome to</h5>
+        <h2 class="text-primary fw-bold mb-3">Sanjeevini Hospitals</h2>
+        <p class="mb-3">
+          Sanjeevini Hospital, rated as the best hospital in Bangalore, is a Multispeciality
+          and super speciality hospital conceived with an aim to deliver advanced and
+          affordable healthcare to the community at large. Its deep-rooted commitment to
+          imparting quality service at every stage continues to be its strong point in
+          achieving success.
+        </p>
+        <p class="mb-4">
+          The hospital adds a new dimension to healthcare with a state-of-the-art facility,
+          specially designed to ensure the comfort of our patients and their families.
+          Because your life is most important to us, we at Sanjeevini have taken all the
+          requisite steps to ensure that our medical and administrative staffs serve you
+          with attention to every minute detail.
+        </p>
 
-      <!-- Buttons -->
-      <div class="d-flex flex-wrap gap-2">
-        <a href="#" class="btn btn-primary">BOOK AN APPOINTMENT</a>
-        <a href="#" class="btn btn-success">READ MORE</a>
+        <!-- Buttons -->
+        <div class="d-flex flex-wrap gap-2">
+          <a href="#" class="btn btn-primary">BOOK AN APPOINTMENT</a>
+          <a href="#" class="btn btn-success">READ MORE</a>
+        </div>
       </div>
     </div>
   </div>
