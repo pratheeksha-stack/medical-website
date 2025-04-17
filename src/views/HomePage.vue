@@ -118,28 +118,32 @@
 </section>
 
 
-<section class="container my-4">
-  <div class="row">
-    <div class="col-6 col-md-4 col-lg-2">
-      <img src="@/assets/image1.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 1">
-    </div>
-    <div class="col-6 col-md-4 col-lg-2">
-      <img src="@/assets/image2.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 2">
-    </div>
-    <div class="col-6 col-md-4 col-lg-2">
-      <img src="@/assets/image3.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 3">
-    </div>
-    <div class="col-6 col-md-4 col-lg-2">
-      <img src="@/assets/image4.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 4">
-    </div>
-    <div class="col-6 col-md-4 col-lg-2">
-      <img src="@/assets/image5.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 5">
-    </div>
-    <div class="col-6 col-md-4 col-lg-2">
-      <img src="@/assets/image6.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 6">
+<!-- Responsive Image Gallery Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="@/assets/image1.jpg" class="img-fluid rounded shadow-sm w-100" alt="Gallery Image 1">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="@/assets/image2.jpg" class="img-fluid rounded shadow-sm w-100" alt="Gallery Image 2">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="@/assets/image3.jpg" class="img-fluid rounded shadow-sm w-100" alt="Gallery Image 3">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="@/assets/image4.jpg" class="img-fluid rounded shadow-sm w-100" alt="Gallery Image 4">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="@/assets/image5.jpg" class="img-fluid rounded shadow-sm w-100" alt="Gallery Image 5">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="@/assets/image6.jpg" class="img-fluid rounded shadow-sm w-100" alt="Gallery Image 6">
+      </div>
     </div>
   </div>
 </section>
+
 
 <!-- blue blocks-->
 
